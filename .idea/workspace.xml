@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba2efb68-8991-471b-92f7-ce9203ee9e7d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_logic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_logic/src/main/java/ru/fortech/applicationlogic/services/implementation/UserProfileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_logic/src/main/java/ru/fortech/applicationlogic/services/implementation/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_logic/src/main/java/ru/fortech/applicationlogic/services/implementation/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_services/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/services/UserProfileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/services/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/ru/fortech/domain/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/ru/fortech/domain/model/UserProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/ru/fortech/domain/model/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_application/src/main/java/ru/fortech/springapplication/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_application/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_configuration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_database_repository/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_rest_services/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository_interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository_interface/src/main/java/ru/fortech/repositoryinterface/repository/UserProfileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository_interface/src/main/java/ru/fortech/repositoryinterface/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repository_interface/src/main/java/ru/fortech/repositoryinterface/repository/UserRoleRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2aqyO4NJwx5a3SC2S0p4NOLIUeO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/user/IdeaProjects/ahub/infrastructure/spring_based_app/Spring_application/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.23396675",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/infrastructure/spring_based_app/Spring_application/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/infrastructure/spring_based_app" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-920bfa72" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba2efb68-8991-471b-92f7-ce9203ee9e7d" name="Changes" comment="" />
+      <created>1705060371023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705060371023</updated>
+      <workItem from="1705060372081" duration="11229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
