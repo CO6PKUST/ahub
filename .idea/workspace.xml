@@ -4,13 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2efb68-8991-471b-92f7-ce9203ee9e7d" name="Changes" comment="update pom.xml">
+    <list default="true" id="ba2efb68-8991-471b-92f7-ce9203ee9e7d" name="Changes" comment="update pom.xml&#10;delete duplicate">
+      <change afterPath="$PROJECT_DIR$/application_logic/src/main/java/ru/fortech/applicationlogic/services/implementation/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_logic/src/main/java/ru/fortech/applicationlogic/services/utils/JwtTokenUtilsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_logic/src/main/java/ru/fortech/applicationlogic/services/utils/PasswordEncoderConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/dto/JwtRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/dto/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/dto/RegistrationUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/exceptions/AppError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/exceptions/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_configuration/src/main/java/ru/fortech/configuration/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_configuration/src/main/java/ru/fortech/configuration/SecurityConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_database_repository/src/main/java/ru/fortech/databaserepository/model/UserEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_database_repository/src/main/java/ru/fortech/databaserepository/model/UserProfileEntity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_database_repository/src/main/java/ru/fortech/databaserepository/model/UserRoleEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_database_repository/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_database_repository/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_rest_services/src/main/java/ru/fortech/springrestservices/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application_logic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application_logic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application_logic/src/main/java/ru/fortech/applicationlogic/services/implementation/UserProfileServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application_logic/src/main/java/ru/fortech/applicationlogic/services/implementation/UserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/application_logic/src/main/java/ru/fortech/applicationlogic/services/implementation/UserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application_logic/src/main/java/ru/fortech/applicationlogic/services/implementation/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/application_logic/src/main/java/ru/fortech/applicationlogic/services/implementation/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/services/UserProfileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/services/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/services/UserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/services/UserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/application_services/src/main/java/ru/fortech/applicationservices/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/ru/fortech/domain/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/ru/fortech/domain/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/ru/fortech/domain/model/UserProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/ru/fortech/domain/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/ru/fortech/domain/model/UserRole.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_rest_services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_rest_services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository_interface/src/main/java/ru/fortech/repositoryinterface/repository/UserProfileRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository_interface/src/main/java/ru/fortech/repositoryinterface/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository_interface/src/main/java/ru/fortech/repositoryinterface/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository_interface/src/main/java/ru/fortech/repositoryinterface/repository/UserRoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/repository_interface/src/main/java/ru/fortech/repositoryinterface/repository/UserRoleRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +114,7 @@
       <updated>1705060371023</updated>
       <workItem from="1705060372081" duration="11229000" />
       <workItem from="1705233243274" duration="130000" />
-      <workItem from="1705233387654" duration="5211000" />
+      <workItem from="1705233387654" duration="28298000" />
     </task>
     <task id="LOCAL-00001" summary="update pom.xml">
       <option name="closed" value="true" />
@@ -100,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705238682263</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update pom.xml&#10;delete duplicate">
+      <option name="closed" value="true" />
+      <created>1705238780903</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705238780903</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +141,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project structure created" />
     <MESSAGE value="update pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="update pom.xml" />
+    <MESSAGE value="update pom.xml&#10;delete duplicate" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pom.xml&#10;delete duplicate" />
   </component>
 </project>
