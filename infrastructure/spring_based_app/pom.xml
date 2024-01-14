@@ -10,11 +10,48 @@
     </parent>
 
     <artifactId>spring_based_app</artifactId>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <modules>
+        <module>spring_database_repository</module>
+        <module>spring_rest_services</module>
+        <module>spring_application</module>
+        <module>spring_configuration</module>
+    </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <groupId>org.springframework.boot</groupId>
+                <version>1.5.10.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>ru.fortech</groupId>
+                <artifactId>spring_database_repository</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ru.fortech</groupId>
+                <artifactId>spring_rest_services</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ru.fortech</groupId>
+                <artifactId>spring_application</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ru.fortech</groupId>
+                <artifactId>spring_configuration</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>
