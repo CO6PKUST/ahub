@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba2efb68-8991-471b-92f7-ce9203ee9e7d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application_logic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application_logic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application_services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/application_services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/spring_based_app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/pom.xml" afterDir="false" />
+    <list default="true" id="ba2efb68-8991-471b-92f7-ce9203ee9e7d" name="Changes" comment="update pom.xml">
+      <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_database_repository/src/main/java/ru/fortech/databaserepository/model/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_database_repository/src/main/java/ru/fortech/databaserepository/model/UserProfileEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_database_repository/src/main/java/ru/fortech/databaserepository/model/UserRoleEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_configuration/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_configuration/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_database_repository/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_database_repository/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_rest_services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/spring_based_app/spring_rest_services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository_interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/repository_interface/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -50,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "master__update",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/user/IdeaProjects/ahub",
@@ -91,11 +90,25 @@
       <updated>1705060371023</updated>
       <workItem from="1705060372081" duration="11229000" />
       <workItem from="1705233243274" duration="130000" />
-      <workItem from="1705233387654" duration="4473000" />
+      <workItem from="1705233387654" duration="5211000" />
     </task>
+    <task id="LOCAL-00001" summary="update pom.xml">
+      <option name="closed" value="true" />
+      <created>1705238682263</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705238682263</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project structure created" />
+    <MESSAGE value="update pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pom.xml" />
   </component>
 </project>
